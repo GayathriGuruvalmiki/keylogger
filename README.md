@@ -312,8 +312,8 @@ Decrypted log content:
 
 ## 👨‍💻 Author
 
-**Darsh Chatrani**  
-🔗 [LinkedIn](https://linkedin.com/in/darshchatrani)  
-📞 Contact: +91 97899 57123
+**Gayathri **  
+🔗 [LinkedIn](https://linkedin.com/in/gayathri-guruvalmiki113168261
+📞 Contact: +91 9390589712
 
 ---
