@@ -1,10 +1,10 @@
-# 🔐 Keylogger with Encrypted Data Exfiltration
+# Keylogger with Encrypted Data Exfiltration
 
 This project demonstrates the implementation of a **Python-based keylogger** that logs keystrokes, encrypts the data using symmetric encryption (`Fernet`), and **exfiltrates it** to a remote **Flask-based server** over HTTP POST requests. It includes a **kill switch**, **persistence logic**, and encrypted log storage.
 
 ---
 
-## 🧠 Overview
+## Overview
 
 - Logs every key pressed using `pynput`.
 - Encrypts logs using a Fernet key (`cryptography` package).
@@ -15,7 +15,7 @@ This project demonstrates the implementation of a **Python-based keylogger** tha
 
 ---
 
-## 🛠 Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python 3.10+
 - [pynput](https://pypi.org/project/pynput/)
@@ -31,7 +31,7 @@ pip install pynput cryptography flask requests
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 KEYLOGGER/
@@ -47,9 +47,9 @@ KEYLOGGER/
 
 ---
 
-## 🧾 Step-by-Step Guide
+## Step-by-Step Guide
 
-### 🔑 Step 1: Generate Encryption Key
+### Step 1: Generate Encryption Key
 
 ```python
 # save as generate_key.py
@@ -70,7 +70,7 @@ python generate_key.py
 
 ---
 
-### 🎯 Step 2: Run Exfiltration Server
+### Step 2: Run Exfiltration Server
 
 ```python
 # exfil_server.py
@@ -129,7 +129,7 @@ python exfil_server.py
 
 ---
 
-### 🎹 Step 3: Launch the Keylogger
+### Step 3: Launch the Keylogger
 
 ```python
 # logger.py
@@ -225,7 +225,7 @@ Now type on your keyboard to generate logs. The logs will be flushed every 30 se
 
 ---
 
-### 🚫 Step 4: Kill Switch (Optional)
+### Step 4: Kill Switch (Optional)
 
 To stop the logger gracefully:
 
@@ -237,7 +237,7 @@ The logger checks for this file every 30 seconds and terminates if found.
 
 ---
 
-### 🔓 Step 5: Decrypt Logs
+### Step 5: Decrypt Logs
 
 ```python
 # decrypt_log.py
@@ -279,7 +279,7 @@ except Exception as e:
 
 ---
 
-## ✅ Sample Output
+## Sample Output
 
 exfil_server.py Output Terminal
 ```bash
@@ -310,10 +310,9 @@ Decrypted log content:
 [Key.caps_lock]s[Key.caps_lock]t[Key.space][Key.caps_lock]d[Key.caps_lock]a[Key.caps_lock]r
 ```
 
-## 👨‍💻 Author
+## Author
 
 **Gayathri **  
-🔗 [LinkedIn](https://linkedin.com/in/gayathri-guruvalmiki113168261
-📞 Contact: +91 9390589712
-
----
+ [LinkedIn](https://linkedin.com/in/gayathri-guruvalmiki113168261
+ Contact: +91 9390589712
+ ---
